@@ -1,0 +1,12 @@
+import random
+t=random.randint(1,50)
+g=int(input("guess\n"))
+i=1
+while i<=2:
+    g=int(input("guess\n"))
+    i+=1
+    if g==t:
+        print("good\n")
+else:
+    print(" sorry you got a wrong answer....!\n")
+    print(f"answer is {t}")
